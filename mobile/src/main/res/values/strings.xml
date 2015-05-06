@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">tedTALKS</string>
+
+    <string name="api_key">keedxfbkxy2jyyw9459cc6d4</string>
+
+    <string name="talks_feed">Talks feed</string>
+    <string name="talk_details">Talk details</string>
+
+    <string name="title">Talk:</string>
+    <string name="desc">About:</string>
+    <string name="speakers">Speakers:</string>
+    <string name="published">Published:</string>
+    <string name="recorded">Recorded:</string>
+    <string name="updated">Updated:</string>
+    <string name="viewed">Viewed:</string>
+    <string name="emailed">Emailed:</string>
+    <string name="commented">Commented:</string>
+
+
+</resources>

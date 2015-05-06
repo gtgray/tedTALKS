@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="clr_transparent">#00000000</color>
+    <color name="clr_black">#ff000000</color>
+    <color name="clr_white">#ffffffff</color>
+    <color name="clr_green_A700">#ff00C853</color>
+    <color name="clr_green_A100">#ffC5E1A5</color>
+    <color name="clr_pink_A400">#ffF50057</color>
+
+    <color name="clr_divider">#26000000</color>
+
+    <color name="clr_shadow_start">#40000000</color>
+
+    <color name="clr_toolbar_background">@color/clr_green_A700</color>
+    <color name="clr_statusbar_background">@color/clr_green_A700</color>
+
+</resources>

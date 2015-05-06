@@ -1,0 +1,32 @@
+// Version information
+def versionMajor = 1
+def versionMinor = 0
+def versionBuild = 0
+def versionRevision = 0
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "tk.atna.tedtalks"
+
+        minSdkVersion 15
+        targetSdkVersion 22
+
+        versionCode versionMajor * 1000000 + versionMinor * 10000 + versionBuild * 100 + versionRevision
+        versionName "${versionMajor}.${versionMinor}.${versionBuild}.${versionRevision}"
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:22.0.0'
+    compile 'com.android.support:cardview-v7:22.0.0'
+    compile 'com.jakewharton:butterknife:6.0.0'
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+    compile 'com.squareup.okhttp:okhttp:2.2.0'
+    compile 'com.squareup.picasso:picasso:2.5.0'
+}
